@@ -1,0 +1,22 @@
+package com.spring_course.demospring;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("car")
+public class vechile {
+	
+	showroom src;
+	
+public vechile(showroom src) {
+		super();
+		this.src = src;
+	}
+
+public String main() {
+	
+	return src.start();
+}
+	
+}

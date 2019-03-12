@@ -1,0 +1,23 @@
+package com.spring_course.demospring;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+@SpringBootApplication
+
+public class DemoSpringApplication {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext j=SpringApplication.run(DemoSpringApplication.class, args);
+	
+		
+		
+		vechile bean = j.getBean(vechile.class);
+	
+		System.out.println(bean.main());
+	
+	}
+
+}

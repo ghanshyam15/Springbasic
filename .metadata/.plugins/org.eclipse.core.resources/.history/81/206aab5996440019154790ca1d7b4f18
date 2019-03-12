@@ -1,0 +1,10 @@
+package com.spring_course.demospring;
+
+public class Car implements showroom{
+
+	@Override
+	public void start() {
+	System.out.println("car start");
+		
+	}
+}

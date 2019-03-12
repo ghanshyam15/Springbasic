@@ -1,0 +1,5 @@
+package com.spring_course.demospring;
+
+public interface showroom {
+
+}

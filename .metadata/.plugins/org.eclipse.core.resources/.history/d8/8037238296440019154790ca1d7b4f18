@@ -1,0 +1,16 @@
+package com.spring_course.demospring;
+
+import org.springframework.stereotype.Component;
+
+@Component
+
+public class vechile {
+	
+	showroom src;
+	
+public String main() {
+	
+	return src.start();
+}
+	
+}

@@ -1,0 +1,20 @@
+package com.spring_course.demospring;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class DemoSpringApplicationTests {
+
+	@Test
+	public void testsam() {
+		vechile j=new vechile();
+		assertEquals("Car start" ,  j.main());
+	}
+
+}
